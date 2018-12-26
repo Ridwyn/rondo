@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Tutorial</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="logo-img"> <a href="index.html"> <img src="img/logo1.png" alt="logo goes here" /></a></div>
+         <div class="logo-text"> <a href="index.html"> <h1>Rondo Web</h1> </a> </div>      
+    
+        </div>
+      </div>
+
+        </header>
+
+    <nav>
+      <label for="toggle"><i class="fa fa-bars"></i></label>
+      <input type="checkbox" id="toggle" style="display:none;">
+      <ul class="menu">
+        <li><a href="index.html">Home </a></li>
+        <li><a href="glossary.html">Glossary </a></li>
+        <li><a href="jobs.html">Jobs </a></li>
+        <li><a href="reviews.html">Reviews </a></li>
+        <li><a href="tutorial.html">Tutorials </a></li>
+      </ul>
+    </nav>
+
+    <div class="wrapper-tutorial">
+      <!-- Main content goes here -->
+      <main>
+        <div>
+          <h2 class="tutorial-head">How to create HTML Forms</h2>
+          <p>
+            This tutorial provides a series of articles that will help you
+            master HTML forms. HTML forms are a very powerful tool for
+            interacting with users; however, for historical and technical
+            reasons, it's not always obvious how to use them to their full
+            potential. In this guide, I'll demontrate all aspects of HTML forms,
+            from structure to styling, from data handling to custom widgets.
+          </p>
+        </div>
+        <!-- demontration of tutorial -->
+        <div class="tutorial-container">
+            <article>
+                <h2>Prerequisites</h2>
+               <p> Before starting this module, you should at least work through Introduction to HTML.
+                 At this point you should find the Basic guides easy to understand,
+                 and also be able to make use of our Native form widgets guide.
+                </p>
+            </article>
+
+            <article>
+                    <h2>Native Form Widgets</h2>
+                  <table>
+                     <tr>
+                         <th>Attribute Name</th>
+                         <th>Description</th>
+                     </tr>
+                     <tr>
+                         <td>form</td>
+                         <td>The form element that the widget is associated with. The value of the attribute 
+                             must be the id attribute of a < form > element in the same document. In theory, it lets you set 
+                                 a form widget outside of a < form > 
+                             element. In practice, however, there is no browser which supports that feature.
+                        </td>
+                     </tr>
+                     <tr>
+                         <td>name</td>
+                         <td>
+                         The name of the element; this is submitted with the form data.
+                         </td>
+                     </tr>
+                     <tr>
+                         <td> value</td>
+                         <td>The element's initial value.</td>
+                     </tr>
+                     <tr>
+                         <td>autofocus</td>
+                         <td>
+                                This Boolean attribute lets you specify that the element should automatically have 
+                                input focus when the page loads, unless the user overrides it, for example by typing in a 
+                                different control. Only one form-associated element in a document
+                                 can have this attribute specified.
+                         </td>
+                     </tr>
+                  </table>
+                </article>
+
+                <article class="tutorial-video">
+                
+                  <h5>Watch video below to on how to create the forms</h5>
+                 <div class="wrapper-vid"> <iframe width="560" height="315" src="https://www.youtube.com/embed/GNuCNQDGBnk?start=10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                
+                </article>
+        </div>
+      </main>
+    </div>
+
+    <!-- This is my main footer used across all pages -->
+    <footer>
+      <div>
+        <p>© Copyright 2019 by Ridwyn Idrissou. All rights reversed.</p>
+      </div>
+
+      <div class="footer-links">
+        <p><a href="#"> Terms & Conditions </a></p>
+        <p><a href="#"> Privacy Policy </a></p>
+        <p><a href="#">Contact Me</a></p>
+      </div>
+
+      <div class="footer-socials">
+        <p>Follow Us On :</p>
+        <ul>
+          <li><i class="fa fa-facebook"></i> <a href="#">Facebook </a></li>
+          <li><i class="fa fa-instagram"></i> <a href="#">Instagram </a></li>
+          <li><i class="fa fa-snapchat"></i> <a href="#">Snapchat </a></li>
+          <li><i class="fa fa-twitter"></i> <a href="#"> Twitter </a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
