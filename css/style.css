@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #f9f9f9;
   color: #333;
   margin: 0;
   font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
@@ -40,13 +40,16 @@ img {
 }
 
 /* NAVIGATION STYLE */
+nav label {
+  display: none;
+}
 nav {
   background-color: #333;
   padding: 0.5em;
 }
 
 nav ul {
-  margin: 0;
+  margin: 0.5rem, 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
@@ -62,6 +65,11 @@ nav li a {
   text-align: center;
 }
 nav li a:hover {
+  color: #f0c330;
+  border: 1px solid #eaeaeb;
+  border-radius: 10px;
+}
+nav li .active {
   color: #f0c330;
 }
 
@@ -116,6 +124,9 @@ footer ul {
 h4 {
   text-align: center;
 }
+aside ul li {
+  line-height: 50px;
+}
 
 .article-section {
   display: grid;
@@ -125,6 +136,10 @@ h4 {
 
 .article-section article {
   padding: 2px 4px;
+}
+
+.article-section article p {
+  border-right: 2px solid #eaeaeb;
 }
 
 /* JOBS.HTML STYLE  */
@@ -144,6 +159,10 @@ h4 {
 .article-section-jobs article h2 {
   text-align: center;
   border-bottom: 1px solid;
+}
+
+.article-section-jobs ul li {
+  line-height: 50px;
 }
 .web-dev section {
   border-right: 1px solid;
@@ -178,7 +197,16 @@ h4 {
 }
 
 .collection-item {
-  border-bottom: 1px solid;
+  border-bottom: 2px solid #e6e9e8;
+}
+
+.collection-item:last-child {
+  border-bottom: none;
+  margin-bottom: 70px;
+}
+
+.collection-1 {
+  border-bottom: 4px solid #4e4f54;
 }
 
 /* REVIEWS.HTML STYLE */
@@ -245,6 +273,7 @@ th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
+  border-radius: 4px;
 }
 
 .tutorial-video {
@@ -253,7 +282,7 @@ td {
 }
 
 /* /* FOR MOBILE DEVICES  //RESPONSIVE// */
-@media (max-width: 500px) {
+@media (max-width: 560px) {
   /* INDEX.HTML STYLE */
   .wrapper-home {
     display: grid;
@@ -264,7 +293,10 @@ td {
 
   .wrapper-home main {
     border-bottom: 2px solid;
-    border-bottom-color: #eaeaeb;
+    border-bottom-color: #d9d9d9;
+  }
+  .article-section article p {
+    border-right: none;
   }
 
   /* JOBS.HTML */
@@ -357,13 +389,5 @@ td {
     grid-template-columns: 1fr;
     margin: 1em auto;
     width: 85%;
-  }
-
-  /* REVIEW.HTML */
-  .cards-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
-    margin: 0;
   }
 }

@@ -23,7 +23,7 @@
         <input type="checkbox" id="toggle" style="display:none;">
         <ul class="menu">
           <li><a href="index.html">Home </a></li>
-          <li><a href="glossary.html">Glossary </a></li>
+          <li><a href="glossary.html" class="active">Glossary </a></li>
           <li><a href="jobs.html">Jobs </a></li>
           <li><a href="reviews.html">Reviews </a></li>
           <li><a href="tutorial.html">Tutorials </a></li>
@@ -36,21 +36,41 @@
         <main>
             <div class="glossary-head"><h1>Glossary</h1></div>
             <!-- HTML Glossary -->
-                <ul class="collection" id="names">
+                <ul class="collection-1" id="names">
                         <li class="collection-header">
                             <h3>HTML Elements</h3>
                         </li>
                         <li class="collection-item">
-                          <h5><samp> < head > </samp> </h5>
+                          <h5> &lthead&gt  </h5>
                             <p> This element provides general information (metadata) about the document, 
                                 including its title and links to its scripts and style sheets.
                                 A title element is required within the head element. meta , style , base , link ,
                                  and script can also be used. head is required and it should be used just once.
                                  It should start immediately after the opening html tag and end directly before the opening body tag.
-                            </p>
+                                It contains the &ltlink&gt tag, &ltmeta&gt tag, &ltstyle&gt tag, and &lttitle&gt tag.
+                                </p>
                         </li>
                         <li class="collection-item">
-                                <h5><samp> < body > </samp> </h5>
+                          <h5> &ltlink&gt  </h5>
+                            <p>The HTML External Resource Link element (&ltlink&gt) specifies relationships between the current document 
+                              and an external resource. This element is most commonly used to link to stylesheets, but is also used to 
+                              establish site icons (both "favicon" style icons and mobile home screen/app icons) among other things.
+                            </p>
+                        </li>
+                      </li>
+                      <li class="collection-item">
+                        <h5> &ltstyle&gt  </h5>
+                          <p>
+                            The HTML &ltstyle&gt  element contains style information for a document, or part of a document.
+                          </p>
+                      </li>
+                      <li class="collection-item">
+                        <h5> &lttitle&gt  </h5>
+                          <p>
+                            The HTML Title element (&lttitle&gt) defines the document's title that is shown in a browser's title bar or a page's tab.                          </p>
+                      </li>
+                        <li class="collection-item">
+                                <h5>&ltbody&gt  </h5>
                                 <p> This element provides general information (metadata) about the document, 
                                     including its title and links to its scripts and style sheets.
                                     A title element is required within the head element. meta , style , base , link ,
@@ -76,18 +96,30 @@
                                  in the case of an English browser).                           </p>
                         </li>
                         <li class="collection-item">
-                                <h5>Grid</h5>
+                                <h5>Floats</h5>
                                 <p>
-                                        CSS Grid Layout is a two-dimensional layout system for the web. It lets you lay content out in rows and columns,
-                                         and has many features that make building complex layouts straightforward.
-                                         This article will give you all you need to know to get started with page layout.A grid is simply a collection of
-                                          horizontal and vertical lines creating a pattern against which we can line up our design elements.
-                                          They help us to create designs where elements don’t jump around or change width as we move from page to page,
-                                           providing greater consistency on our websites.
-                                    </p>
+                                    The float property was introduced to allow web developers to implement simple layouts involving an image 
+                                    floating inside a column of text, with the text wrapping around the left or right of it. The kind of thing 
+                                    you might get in a newspaper layout.
+                                </p>
                         </li>
-                       
+                         <li class="collection-item">
+                                <h5>Static positioning</h5>
+                                <p>
+                                    Static positioning is the default that every element gets — it just means "put the element into 
+                                    its normal position in the document layout flow
+                                </p>
+                        </li>
+                        <li class="collection-item">
+                                <h5>Relative positioning</h5>
+                                <p>
+                                    Relative positioning is the first position type we'll take a look at. This is very similar 
+                                    to static positioning, except that once the positioned element has taken its place in the normal 
+                                    layout flow, you can then modify its final position, including making it overlap other elements on the page.
+                                </p>
+                        </li>
                  </ul>
+                 
 
         </main>
 
@@ -106,7 +138,7 @@
     </div>
 
     <div class="footer-socials">
-      <p>Follow Us On :</p>     
+      <p>Follow Me On :</p>     
         <ul> 
           <li><i class="fa fa-facebook"></i> <a href="#">Facebook </a> </li>
           <li><i class="fa fa-instagram"></i> <a href="#">Instagram </a> </li>
