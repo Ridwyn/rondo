@@ -49,7 +49,7 @@ nav {
 }
 
 nav ul {
-  margin: 0.5rem, 0;
+  margin: 0.5rem 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
@@ -88,7 +88,7 @@ footer ul {
 
 .footer-socials li a {
   text-decoration: none;
-  color: #2b457c;
+  color: #f0c330;
 }
 .footer-socials li a:hover {
   color: #fff;
@@ -99,17 +99,6 @@ footer ul {
   padding: 0 1em;
 }
 
-.footer-links p {
-  display: inline-block;
-  padding: 0 1em;
-}
-.footer-links a {
-  text-decoration: none;
-  color: #f0c330;
-}
-.footer-links a:hover {
-  color: #fff;
-}
 
 /* INDEX.HTML STYLE */
 .wrapper-home {
