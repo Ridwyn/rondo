@@ -13,7 +13,7 @@ img {
 /* HEADER */
 .header-content {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 3fr;
   grid-gap: 10px;
   background-color: #f9f9f9;
   align-items: center;
@@ -98,7 +98,6 @@ footer ul {
   display: inline-block;
   padding: 0 1em;
 }
-
 
 /* INDEX.HTML STYLE */
 .wrapper-home {
@@ -244,8 +243,10 @@ aside ul li {
 
 /* Add rounded corners to the top left and the top right corner of the image */
 .card img {
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
 }
+
+
 
 /* TUTORIAL.HTML SYLE */
 .wrapper-tutorial {
